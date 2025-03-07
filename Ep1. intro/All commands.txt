@@ -1,0 +1,5 @@
+ml /c /Zd /coff /I C:\masm32\include helloa.asm
+C:\masm32\bin\link.exe /subsystem:console /LIBPATH:C:\masm32\lib hello.obj
+hello.exe
+
+dir C:\masm32\include\windows.inc1
